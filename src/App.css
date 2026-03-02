@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* Dark mode variant (Tailwind v4) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ===============================
+   GLOBAL SMOOTH SCROLL
+================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===============================
+   FLOATING BACKGROUND ANIMATION
+================================= */
+
+@keyframes float {
+  0% {
+    transform: translate(-60px, -40px);
+  }
+  50% {
+    transform: translate(60px, 40px);
+  }
+  100% {
+    transform: translate(-60px, -40px);
+  }
+}
+
+.animate-float {
+  animation: float 14s ease-in-out infinite;
+}
+
+/* ===============================
+   ORBIT ROTATION
+================================= */
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 25s linear infinite;
+}
+
+/* ===============================
+   ICON REVERSE ROTATION
+================================= */
+
+@keyframes spinReverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-spin-reverse {
+  animation: spinReverse 25s linear infinite;
+}
+
+/* ===============================
+   BORDER GLOW EFFECT
+================================= */
+
+@keyframes borderGlow {
+  0% {
+    box-shadow: 0 0 15px #14b8a6;
+  }
+  50% {
+    box-shadow: 0 0 50px #14b8a6;
+  }
+  100% {
+    box-shadow: 0 0 15px #14b8a6;
+  }
+}
+
+.animate-border-glow {
+  animation: borderGlow 4s ease-in-out infinite;
+}
+
+/* ===============================
+   SOFT PULSE DOT ANIMATION
+================================= */
+
+@keyframes pulseSoft {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulseSoft 6s ease-in-out infinite;
+}
