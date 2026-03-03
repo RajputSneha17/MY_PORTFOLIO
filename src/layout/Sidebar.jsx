@@ -37,10 +37,10 @@ export default function Sidebar({
       )}
       <div
         className={`h-screen w-80 fixed left-0 top-0 
-      bg-white dark:bg-[#0b1b23] 
-      text-gray-700 dark:text-gray-400
-      px-12 py-16 flex flex-col justify-between transition-all duration-300
-      ${sidebarOpen ? "translate-x-0 z-50" : "-translate-x-full md:translate-x-0"}`}
+  bg-white dark:bg-[#0b1b23] 
+  text-gray-700 dark:text-gray-400
+  px-12 pt-16 pb-24 md:pb-16 flex flex-col justify-between transition-all duration-300
+  ${sidebarOpen ? "translate-x-0 z-50" : "-translate-x-full md:translate-x-0"}`}
       >
         {/* Top Section */}
         <div>
@@ -74,8 +74,7 @@ export default function Sidebar({
           <h2 className="text-teal-500 mt-3 text-lg">Full Stack Developer</h2>
 
           <p className="mt-6 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
-            I build scalable web applications, modern user interfaces, and
-            Java-based backend solutions with clean architecture.
+            Skilled in Java, DSA, Android and Web Application Development.
           </p>
 
           {/* Menu */}
@@ -114,22 +113,45 @@ export default function Sidebar({
 
         {/* Bottom Icons */}
         <div className="flex m-10 space-x-6 text-gray-500 dark:text-gray-500">
-          <Github
-            className="hover:text-teal-500 cursor-pointer transition"
-            size={18}
-          />
-          <Linkedin
-            className="hover:text-teal-500 cursor-pointer transition"
-            size={18}
-          />
-          <Instagram
-            className="hover:text-teal-500 cursor-pointer transition"
-            size={18}
-          />
-          <Mail
-            className="hover:text-teal-500 cursor-pointer transition"
-            size={18}
-          />
+          <a
+            href="https://github.com/RajputSneha17"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github
+              className="hover:text-teal-500 cursor-pointer transition"
+              size={18}
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sneha-rajput-5102b0284/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin
+              className="hover:text-teal-500 cursor-pointer transition"
+              size={18}
+            />
+          </a>
+
+          <a
+            href="https://www.instagram.com/sneharajput9205/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram
+              className="hover:text-teal-500 cursor-pointer transition"
+              size={18}
+            />
+          </a>
+
+          <a href="mailto:sneharajput63154@gmail.com">
+            <Mail
+              className="hover:text-teal-500 cursor-pointer transition"
+              size={18}
+            />
+          </a>
         </div>
       </div>
     </>

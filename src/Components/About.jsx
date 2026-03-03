@@ -14,16 +14,17 @@ bg-white dark:bg-[#071c24] mt-16 md:mt-20
 
         {/* Description */}
         <p className="text-lg leading-relaxed mb-6 text-gray-600 dark:text-gray-400">
-          I'm a passionate Full Stack Developer with experience in building
-          modern web applications, responsive user interfaces, and Java-based
-          backend systems. I enjoy transforming ideas into scalable and
-          user-friendly digital solutions.
+          I'm a Full Stack Developer with hands-on experience in Web
+          Development, Android Application Development, and Java-based backend
+          systems. I enjoy building practical and scalable applications that
+          solve real problems.
         </p>
 
         <p className="text-lg leading-relaxed mb-10 text-gray-600 dark:text-gray-400">
-          I specialize in creating clean UI designs, structured backend logic,
-          and efficient application workflows. My focus is always on writing
-          maintainable code and delivering smooth user experiences.
+          My work focuses on creating responsive user interfaces, writing
+          structured backend logic, and applying Data Structures and Algorithms
+          to improve performance. I aim to write clean, organized, and
+          maintainable code.
         </p>
 
         {/* Skills Highlight Cards */}
@@ -61,10 +62,10 @@ bg-white dark:bg-[#071c24] mt-16 md:mt-20
           bg-gray-100 dark:bg-[#0c2b35] 
           hover:scale-105 transition duration-300"
           >
-            <h3 className="font-semibold text-teal-500 mb-2">Java & Backend</h3>
+            <h3 className="font-semibold text-teal-500 mb-2">Java & DSA</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Developing backend systems and problem-solving using Java and
-              structured programming concepts.
+              Proficient in Java with a good understanding of Data Structures
+              and Algorithms.
             </p>
           </div>
         </div>

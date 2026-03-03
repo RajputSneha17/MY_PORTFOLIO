@@ -60,7 +60,7 @@ export default function Contact() {
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Email
                 </p>
-                <p className="font-medium">snehar63154@gmail.com</p>
+                <p className="font-medium">sneharajput63154@gmail.com</p>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Phone
                 </p>
-                <p className="font-medium">+91 XXXXX XXXXX</p>
+                <p className="font-medium">+91 9460992991</p>
               </div>
             </div>
           </div>
@@ -104,9 +104,10 @@ export default function Contact() {
                   required
                   placeholder="Your name"
                   className="w-full mt-2 px-4 py-2 rounded-lg
-                  bg-white dark:bg-[#071c24]
-                  border border-gray-300 dark:border-gray-600
-                  focus:outline-none focus:ring-2 focus:ring-teal-500"
+          bg-white dark:bg-[#071c24]
+          border border-gray-300 dark:border-gray-600
+          placeholder-gray-400 dark:placeholder-gray-500
+          focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
               </div>
 
@@ -120,9 +121,10 @@ export default function Contact() {
                   required
                   placeholder="your@email.com"
                   className="w-full mt-2 px-4 py-2 rounded-lg
-                  bg-white dark:bg-[#071c24]
-                  border border-gray-300 dark:border-gray-600
-                  focus:outline-none focus:ring-2 focus:ring-teal-500"
+          bg-white dark:bg-[#071c24]
+          border border-gray-300 dark:border-gray-600
+          placeholder-gray-400 dark:placeholder-gray-500
+          focus:outline-none focus:ring-2 focus:ring-teal-500"
                 />
               </div>
             </div>
@@ -137,9 +139,10 @@ export default function Contact() {
                 required
                 placeholder="What's this about?"
                 className="w-full mt-2 px-4 py-2 rounded-lg
-                bg-white dark:bg-[#071c24]
-                border border-gray-300 dark:border-gray-600
-                focus:outline-none focus:ring-2 focus:ring-teal-500"
+        bg-white dark:bg-[#071c24]
+        border border-gray-300 dark:border-gray-600
+        placeholder-gray-400 dark:placeholder-gray-500
+        focus:outline-none focus:ring-2 focus:ring-teal-500"
               />
             </div>
 
@@ -153,9 +156,10 @@ export default function Contact() {
                 required
                 placeholder="Your message..."
                 className="w-full mt-2 px-4 py-2 rounded-lg
-                bg-white dark:bg-[#071c24]
-                border border-gray-300 dark:border-gray-600
-                focus:outline-none focus:ring-2 focus:ring-teal-500"
+        bg-white dark:bg-[#071c24]
+        border border-gray-300 dark:border-gray-600
+        placeholder-gray-400 dark:placeholder-gray-500
+        focus:outline-none focus:ring-2 focus:ring-teal-500"
               ></textarea>
             </div>
 
@@ -163,9 +167,9 @@ export default function Contact() {
               type="submit"
               disabled={loading}
               className="w-full flex items-center justify-center gap-2
-              bg-teal-500 hover:bg-teal-600
-              text-white font-medium py-3 rounded-lg
-              transition duration-300 disabled:opacity-60"
+      bg-teal-500 hover:bg-teal-600
+      text-white font-medium py-3 rounded-lg
+      transition duration-300 disabled:opacity-60"
             >
               <Send size={18} />
               {loading ? "Sending..." : "Send Message"}

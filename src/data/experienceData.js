@@ -6,8 +6,8 @@ const experienceData = [
     website: "https://arraysoft.in",
     duration: "Jan 2026 – Present · 1 month (Extended)",
     description:
-      "Working on full-stack web development using MERN stack. Building scalable backend APIs and responsive frontend interfaces.",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
+      "Contributed to building a live startup website while working across both frontend and backend. Currently continuing as an extended intern, focusing on scalable backend structure and performance optimization.",
+    tech: ["React", "Node.js", "MongoDB", "Express", "tailwindcss"],
   },
   {
     id: 2,
@@ -16,8 +16,8 @@ const experienceData = [
     website: "https://wishlitz.com",
     duration: "3 Months · Remote",
     description:
-      "Developed interactive web features and improved UI components. Collaborated remotely on feature development.",
-    tech: ["React", "JavaScript", "API Integration"],
+      "Worked on backend-driven modules and intelligent feature integrations using REST APIs and AI-based services, while managing database operations and structured server-side logic.",
+    tech: ["Node.js", "Express.js", "MongoDB", "AI APIs"],
   },
   {
     id: 3,
@@ -26,8 +26,8 @@ const experienceData = [
     website: "https://theentrepreneurshipnetwork.net",
     duration: "3 Months · Remote",
     description:
-      "Worked on frontend modules and optimized website performance for better user experience.",
-    tech: ["React", "Tailwind", "MongoDB"],
+      "Developed interactive web modules and structured applications with a focus on clean UI, responsive layouts, and efficient client-side functionality.",
+    tech: ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
     id: 4,
@@ -36,8 +36,8 @@ const experienceData = [
     website: "https://www.tcsion.com",
     duration: "1 Month · Remote",
     description:
-      "Designed user interfaces and improved usability flows. Focused on clean and accessible UI layouts.",
-    tech: ["Figma", "UI Design", "UX Principles"],
+      "Created various digital design assets and interface layouts, contributing to branding visuals and structured web designs with attention to clarity and usability.",
+    tech: ["Canva", "UI Design", "UX Principles"],
   },
 ];
 

@@ -66,7 +66,7 @@ shadow-md dark:animate-border-glow"
         shadow-[0_0_80px_#14b8a6] z-10"
         >
           <img
-            src="/profile.jpg"
+            src="/myImage.jpg"
             alt="profile"
             className="w-full h-full object-cover"
           />

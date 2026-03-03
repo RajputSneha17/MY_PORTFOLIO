@@ -3,10 +3,11 @@ import { Heart } from "lucide-react";
 const Footer = () => {
   return (
     <footer
-      className="px-10 md:px-20 py-16
-      bg-white dark:bg-[#071c24]
-      text-gray-700 dark:text-gray-400
-      transition-all duration-500"
+      className="px-10 md:px-20 
+  pt-16 pb-24 md:pb-16
+  bg-white dark:bg-[#071c24]
+  text-gray-700 dark:text-gray-400
+  transition-all duration-500"
     >
       {/* Divider */}
       <div className="border-t border-gray-200 dark:border-gray-800 mb-10"></div>
