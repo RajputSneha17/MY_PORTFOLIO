@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react";
 export default function FloatingResume() {
   return (
     <a
-      href="https://drive.google.com/file/d/1ctaM60fx5wuvGyolTgxRFg9FE915UsMF/view?usp=sharing"
+      href="https://drive.google.com/file/d/1I6oaZn21CwoTgMI2jsXF6xx3E3PQ1lFq/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-8 right-8 z-50
