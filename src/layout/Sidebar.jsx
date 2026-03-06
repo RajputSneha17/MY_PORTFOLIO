@@ -74,7 +74,7 @@ export default function Sidebar({
           <h2 className="text-teal-500 mt-3 text-lg">Full Stack Developer</h2>
 
           <p className="mt-6 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
-            Skilled in Java, DSA, Android and Web Application Development.
+            Skilled in Android and Web Application Development.
           </p>
 
           {/* Menu */}

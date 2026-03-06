@@ -4,7 +4,7 @@ const experienceData = [
     role: "MERN Stack Intern",
     company: "Arraysoft Technology Pvt. Ltd.",
     website: "https://arraysoft.in",
-    duration: "Jan 2026 – Present · 1 month (Extended)",
+    duration: "1 month · Remote",
     description:
       "Contributed to building a live startup website while working across both frontend and backend. Currently continuing as an extended intern, focusing on scalable backend structure and performance optimization.",
     tech: ["React", "Node.js", "MongoDB", "Express", "tailwindcss"],

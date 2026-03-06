@@ -11,11 +11,11 @@ const educationData = [
   {
     id: 2,
     duration: "Professional Certification",
-    title: "Full Stack Web Development & Java DSA",
+    title: "Full Stack Web Development",
     institution: "Apna College (Shraddha Khapra & Aman Dhattarwal)",
     description:
-      "Completed comprehensive training in Full Stack Development and Data Structures & Algorithms using Java. Built real-world projects and strengthened problem-solving and backend development skills.",
-    highlights: ["Full Stack Development", "Java DSA"],
+      "Completed comprehensive training in Full Stack Development. Built real-world projects and strengthened problem-solving and backend development skills.",
+    highlights: ["Full Stack Development"],
   },
 ];
 
