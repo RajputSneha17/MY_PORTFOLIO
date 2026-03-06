@@ -6,7 +6,7 @@ const skillsData = [
   },
   {
     id: 2,
-    category: "Backend & Java",
+    category: "Backend",
     skills: ["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs"],
   },
   {
