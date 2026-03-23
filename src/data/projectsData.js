@@ -33,8 +33,8 @@ const projectsData = [
     title: "Find Hotels – Hotel Listing Platform",
     description:
       "A full-stack hotel listing and booking platform with secure authentication, listing management, search functionality, and a review system. Users can create, manage, and review hotel listings with dynamic price display options.",
-    github: "https://github.com/RajputSneha17/Find-Hotels/listings",
-    live: "https://find-hotels-e6g7.onrender.com",
+    github: "https://github.com/RajputSneha17/Find-Hotels",
+    live: "https://find-hotels-e6g7.onrender.com/listings",
     tech: [
       "Node.js",
       "Express.js",
